@@ -17,3 +17,12 @@ color: #06324B;
 .NEW! {
   margin-left: 50px;
 }
+.fake-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff; 
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;           
+  user-select: none;         
+}
