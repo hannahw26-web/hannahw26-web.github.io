@@ -3,7 +3,8 @@ background-color: #E7ECEF;
 }
 
 h1 {
-color: #06324B;
+color: #E7ECEF;
+size: 100px;
 }
 
 p {
@@ -12,6 +13,9 @@ color: #06324B;
 
 th {
 color: #06324B;
+}
+tr {
+  color: #06324B;
 }
 
 .NEW! {
@@ -25,4 +29,32 @@ color: #06324B;
   border-radius: 4px;
   cursor: pointer;           
   user-select: none;         
+}
+h1 {
+  font-family: 'Bolby One', sans-serif;
+}
+body {
+  font-family: 'Open Sans', Verdana, sans-serif;
+}
+h1 {
+  background-image: url('background.avif');
+  background-size: cover; 
+  background-position: center; 
+  color: #06324B;
+  padding: 75px; 
+}
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: darkorange;
+}
+
+a:hover {
+  color: slategrey;
+}
+
+a:active {
+  color: yellow;
 }
